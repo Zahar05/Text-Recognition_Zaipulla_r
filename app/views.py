@@ -85,4 +85,7 @@ def get_text(id: int):
     summary='«status»: True'
 )
 def check_app():
+    '''
+    Проверка работоспособности приложения
+    '''
     return {"status": True}
