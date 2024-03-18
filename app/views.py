@@ -77,3 +77,12 @@ def get_text(id: int):
     if not doc_text:
         return {"error": f"There's no obj with id={id}"}
     return {f"text by id={id}": doc_text.text}
+
+
+@doc_router.get(
+    "/",
+    description='Проверка работоспособности приложения',
+    summary='«status»: True'
+)
+def check_app():
+    return {"status": True}
