@@ -87,6 +87,10 @@ def get_text(id: int):
 )
 def check_app():
     '''
+<<<<<<< HEAD
     Add new endpoint
+=======
+    Проверка работоспособности приложения
+>>>>>>> 64836d9 (Add new line in check_app master)
     '''
     return {"status": True}
