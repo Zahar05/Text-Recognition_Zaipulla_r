@@ -86,6 +86,6 @@ def get_text(id: int):
 )
 def check_app():
     '''
-    Проверка работоспособности приложения
+    Add new endpoint
     '''
     return {"status": True}
