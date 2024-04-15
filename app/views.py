@@ -80,7 +80,8 @@ def get_text(id: int):
 
 
 @doc_router.get(
-    "/",
+    "/check_app/",
+    tags=['Status'],
     description='Проверка работоспособности приложения',
     summary='«status»: True'
 )
